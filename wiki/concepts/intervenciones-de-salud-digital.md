@@ -8,6 +8,12 @@ summary: Categoría del consenso SAC para tecnologías digitales usadas con obje
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
+children:
+  - teleconsulta-cardiologica
+  - teleinterconsulta
+  - telemonitoreo-cardiovascular
+  - telegestion
+  - teleeducacion-en-salud
 aliases:
   - intervenciones digitales en salud
 ---
@@ -16,13 +22,13 @@ aliases:
 
 ## Resumen
 
-Las intervenciones de salud digital son tecnologías digitales usadas para alcanzar objetivos de salud. En el consenso de la SAC, las categorías centrales son teleconsulta, teleinterconsulta, telemonitoreo, telegestión y teleeducación.
+Las intervenciones de salud digital son tecnologías digitales usadas para alcanzar objetivos de salud. En el consenso de la SAC, las categorías centrales son [[Teleconsulta Cardiológica]], [[Teleinterconsulta]], [[Telemonitoreo Cardiovascular]], [[Telegestión]] y [[Teleeducación en Salud]].
 
 ## Explicación detallada
 
 El concepto funciona como vocabulario compartido para todo el wiki. Evita que cada flujo digital sea tratado como una "app" o "plataforma" genérica y permite clasificar la función clínica que se está realizando.
 
-El consenso define la [[Teleconsulta Cardiológica]] como la interacción directa entre paciente y profesional mediante tecnología digital. La teleinterconsulta es la interacción entre médicos, habitualmente entre un médico consultante y un especialista remoto. El [[Telemonitoreo Cardiovascular]] es el seguimiento profesional, a lo largo del tiempo, de parámetros del paciente o métodos complementarios mediante transmisión digital. La telegestión cubre la comunicación digital para documentación médica, prescripciones, órdenes de estudios, almacenamiento y transferencia de estudios diagnósticos, notificaciones y flujos profesionales. La teleeducación incluye formación profesional e información verificada para pacientes o salud pública entregada mediante tecnologías digitales.
+El consenso define la [[Teleconsulta Cardiológica]] como la interacción directa entre paciente y profesional mediante tecnología digital. La [[Teleinterconsulta]] es la interacción entre médicos, habitualmente entre un médico consultante y un especialista remoto. El [[Telemonitoreo Cardiovascular]] es el seguimiento profesional, a lo largo del tiempo, de parámetros del paciente o métodos complementarios mediante transmisión digital. La [[Telegestión]] cubre la comunicación digital para documentación médica, prescripciones, órdenes de estudios, almacenamiento y transferencia de estudios diagnósticos, notificaciones y flujos profesionales. La [[Teleeducación en Salud]] incluye formación profesional e información verificada para pacientes o salud pública entregada mediante tecnologías digitales.
 
 ## Por qué importa
 
@@ -42,7 +48,10 @@ El consenso otorga recomendaciones de Clase I, Nivel C para la clasificación y 
 
 - [[Salud Digital en Cardiología]]
 - [[Teleconsulta Cardiológica]]
+- [[Teleinterconsulta]]
 - [[Telemonitoreo Cardiovascular]]
+- [[Telegestión]]
+- [[Teleeducación en Salud]]
 - [[Gestión e Historia Clínica Electrónica]]
 
 ## Fuentes

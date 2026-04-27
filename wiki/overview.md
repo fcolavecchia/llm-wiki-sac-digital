@@ -5,6 +5,8 @@ slug: overview
 status: active
 updated: 2026-04-27
 summary: Punto de entrada del wiki Sac Digital, centrado en salud digital en cardiología a partir de fuentes de consenso argentinas.
+sources:
+  - 2026-04-consenso-salud-digital
 children:
   - salud-digital-en-cardiologia
 ---
@@ -45,3 +47,7 @@ El wiki debe distinguir los principios clínicos y organizacionales duraderos de
 - ¿Cómo deberían operacionalizar las instituciones argentinas el pago, el consentimiento, la privacidad y la cobertura de responsabilidad profesional para actos digitales remotos?
 - ¿Qué bases de datos nacionales son factibles para validar IA en imágenes cardiovasculares, monitoreo remoto y genómica?
 - ¿Qué partes del consenso son recomendaciones basadas solo en consenso y cuáles están apoyadas por datos más sólidos de resultados clínicos?
+
+## Fuentes
+
+- [[2026-04-consenso-salud-digital]]

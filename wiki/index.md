@@ -28,7 +28,10 @@ Este archivo cataloga el árbol actual de `wiki/` para personas y agentes.
 - [Inteligencia Artificial en Cardiología](/concepts/inteligencia-artificial-en-cardiologia) - Uso de IA en la atención cardiovascular, incluida la IA generativa, el soporte clínico, las imágenes, la documentación, la evaluación y la gobernanza. | actualizado 2026-04-27
 - [Intervenciones de Salud Digital](/concepts/intervenciones-de-salud-digital) - Categoría del consenso SAC para tecnologías digitales usadas con objetivos de salud en la atención cardiovascular. | actualizado 2026-04-27
 - [Redes Sociales Profesionales en Salud](/concepts/redes-sociales-profesionales-en-salud) - Uso profesional de redes sociales en salud para educación, comunicación basada en evidencia, visibilidad y respuesta a la desinformación. | actualizado 2026-04-27
+- [Teleeducación en Salud](/concepts/teleeducacion-en-salud) - Educación profesional, educación del paciente e información de salud pública entregadas mediante tecnologías digitales. | actualizado 2026-04-27
 - [Teleconsulta Cardiológica](/concepts/teleconsulta-cardiologica) - Modelo de consulta cardiológica remota que complementa la atención presencial bajo condiciones clínicas, técnicas, éticas y legales. | actualizado 2026-04-27
+- [Telegestión](/concepts/telegestion) - Gestión médica remota de documentación, prescripciones, órdenes, estudios y comunicaciones profesionales en salud digital. | actualizado 2026-04-27
+- [Teleinterconsulta](/concepts/teleinterconsulta) - Interconsulta remota entre profesionales de salud para apoyar decisiones cardiovasculares y coordinación asistencial. | actualizado 2026-04-27
 - [Telemonitoreo Cardiovascular](/concepts/telemonitoreo-cardiovascular) - Monitoreo remoto de pacientes cardiovasculares mediante dispositivos validados, plataformas de datos y equipos clínicos especializados. | actualizado 2026-04-27
 
 ## Entidades

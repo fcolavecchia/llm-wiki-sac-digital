@@ -30,7 +30,7 @@ La extracción del PDF produjo texto utilizable, pero los metadatos de extracci�
 
 - La salud digital se define como el uso de tecnologías de la información y la comunicación en procesos de atención sanitaria, como una vía complementaria e innovadora para responder a necesidades de salud poblacional.
 - El consenso considera las intervenciones de salud digital como actos médicos cuando involucran diagnóstico, tratamiento, monitoreo, prescripción, comunicación profesional o educación del paciente.
-- Las principales categorías de intervención son [[Intervenciones de Salud Digital]]: teleconsulta, teleinterconsulta, telemonitoreo, telegestión y teleeducación.
+- Las principales categorías de intervención son [[Intervenciones de Salud Digital]]: [[Teleconsulta Cardiológica]], [[Teleinterconsulta]], [[Telemonitoreo Cardiovascular]], [[Telegestión]] y [[Teleeducación en Salud]].
 - La [[Teleconsulta Cardiológica]] se recomienda como complemento válido de la atención presencial en pacientes estables, pero no como única evaluación en pacientes con síntomas de riesgo vital.
 - El [[Telemonitoreo Cardiovascular]] debe usar dispositivos validados, equipos especializados, protocolos basados en evidencia y evaluación de la aptitud digital del paciente.
 - La [[Inteligencia Artificial en Cardiología]] puede apoyar flujos clínicos y administrativos, pero requiere validación, transparencia, resguardos de privacidad, supervisión profesional y atención a alucinaciones, sesgos y seguridad clínica.
@@ -52,7 +52,10 @@ Esta es la fuente semilla del wiki Sac Digital porque establece un vocabulario p
 - [[Intervenciones de Salud Digital]]
 - [[Inteligencia Artificial en Cardiología]]
 - [[Teleconsulta Cardiológica]]
+- [[Teleinterconsulta]]
 - [[Telemonitoreo Cardiovascular]]
+- [[Telegestión]]
+- [[Teleeducación en Salud]]
 - [[Digitalización de Imágenes Cardiovasculares]]
 - [[Genómica en Salud Digital]]
 - [[Redes Sociales Profesionales en Salud]]

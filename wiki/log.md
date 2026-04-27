@@ -32,3 +32,9 @@ summary: Registro cronológico de ingestas, análisis, revisiones y cambios estr
 ## [2026-04-27] reorg | traducción de la interfaz web
 - Se tradujeron rótulos visibles de navegación, búsqueda, páginas recientes, actividad, fuentes y metadatos de página.
 - Se agregó un helper de etiquetas para mostrar los tipos internos del wiki en castellano sin afectar slugs ni frontmatter.
+
+## [2026-04-27] lint | mantenimiento del wiki
+- Se revisaron enlaces internos, metadatos, fuentes, jerarquía, posibles duplicados, conceptos repetidos sin página y claims potencialmente stale.
+- Se agregaron páginas de concepto para categorías repetidas de intervención digital: [[Teleinterconsulta]], [[Telegestión]] y [[Teleeducación en Salud]].
+- Se actualizó la jerarquía de [[Salud Digital en Cardiología]] e [[Intervenciones de Salud Digital]], se agregó atribución de fuente a [[overview|Panorama general]] y se refrescó [[index|Índice del wiki]].
+- Notas: no se detectaron enlaces internos rotos, duplicados evidentes, contradicciones internas ni páginas curadas sin fuente después de los cambios.

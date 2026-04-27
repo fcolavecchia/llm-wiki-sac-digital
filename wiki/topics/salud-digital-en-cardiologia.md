@@ -13,9 +13,14 @@ children:
   - inteligencia-artificial-en-cardiologia
   - teleconsulta-cardiologica
   - telemonitoreo-cardiovascular
+  - teleinterconsulta
+  - telegestion
+  - teleeducacion-en-salud
   - digitalizacion-de-imagenes-cardiovasculares
   - genomica-en-salud-digital
+  - redes-sociales-profesionales-en-salud
   - gestion-e-historia-clinica-electronica
+  - implicancias-medico-legales-y-eticas-de-la-medicina-digital
 ---
 
 # Salud Digital en Cardiología
@@ -35,6 +40,9 @@ El tema se organiza alrededor de dos ideas. Primero, la salud digital puede ayud
 - [[Intervenciones de Salud Digital]]
 - [[Teleconsulta Cardiológica]]
 - [[Telemonitoreo Cardiovascular]]
+- [[Teleinterconsulta]]
+- [[Telegestión]]
+- [[Teleeducación en Salud]]
 - [[Inteligencia Artificial en Cardiología]]
 - [[Digitalización de Imágenes Cardiovasculares]]
 - [[Genómica en Salud Digital]]
