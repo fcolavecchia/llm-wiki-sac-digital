@@ -4,44 +4,44 @@ type: concept
 slug: gestion-e-historia-clinica-electronica
 status: active
 updated: 2026-04-27
-summary: Digital management tools and electronic health records as infrastructure for quality, access, interoperability, documentation, and value-based care.
+summary: Herramientas digitales de gestión e historia clínica electrónica como infraestructura para calidad, acceso, interoperabilidad, documentación y atención basada en valor.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
 aliases:
   - HCE
-  - historia clinica electronica
+  - historia clínica electrónica
 ---
 
 # Gestión e Historia Clínica Electrónica
 
-## Summary
+## Resumen
 
-Gestion e historia clinica electronica covers the digital tools used to organize health services and document patient care. In the SAC consensus, the HCE is foundational infrastructure for continuity, interoperability, patient access, clinical documentation, decision support, and accountability.
+Gestión e historia clínica electrónica cubre las herramientas digitales usadas para organizar servicios de salud y documentar la atención del paciente. En el consenso de la SAC, la HCE es infraestructura fundacional para continuidad asistencial, interoperabilidad, acceso del paciente, documentación clínica, soporte a la decisión y rendición de cuentas.
 
-## Detailed Explanation
+## Explicación detallada
 
-The consensus frames health management as planning, organizing, directing, and controlling people, resources, and activities to deliver quality, accessible, equitable care. Digital tools support records, patient portals, telemedicine, appointment scheduling, medication management, education, data analytics, AI, administration, billing, customer relationship management, and research collaboration.
+El consenso encuadra la gestión sanitaria como planificación, organización, dirección y control de personas, recursos y actividades para brindar atención de calidad, accesible y equitativa. Las herramientas digitales sostienen registros, portales para pacientes, telemedicina, gestión de turnos, administración de medicación, educación, analítica de datos, IA, administración, facturación, gestión de la relación con pacientes y colaboración en investigación.
 
-The HCE is defined as a digital record that stores and organizes patient health information over time and allows access across care settings. Its value depends on data quality, interoperability, security, usability, and integration into clinical workflows.
+La HCE se define como un registro digital que almacena y organiza la información de salud del paciente a lo largo del tiempo y permite el acceso en distintos ámbitos de atención. Su valor depende de la calidad de los datos, la interoperabilidad, la seguridad, la usabilidad y la integración con los flujos clínicos.
 
-## Why It Matters
+## Por qué importa
 
-Without reliable electronic records, teleconsultation, telemonitoring, AI, imaging integration, genomics, e-prescription, and medico-legal traceability become fragmented. The HCE is the operational memory of digital health.
+Sin registros electrónicos confiables, la teleconsulta, el telemonitoreo, la IA, la integración de imágenes, la genómica, la receta electrónica y la trazabilidad médico-legal se fragmentan. La HCE es la memoria operativa de la salud digital.
 
-## Implications
+## Implicancias
 
-- Teleconsultations and remote monitoring actions should be documented in the HCE.
-- Imaging systems should integrate images and reports with the HCE.
-- AI can support documentation through speech recognition, information extraction, coding, report generation, anomaly detection, translation, summarization, and decision support.
-- Interoperability standards such as HL7 FHIR are necessary for health information exchange.
-- Digital management should be tied to quality, equity, efficiency, and value-based health care rather than digitization for its own sake.
+- Las teleconsultas y las acciones de monitoreo remoto deben documentarse en la HCE.
+- Los sistemas de imágenes deben integrar imágenes e informes con la HCE.
+- La IA puede apoyar la documentación mediante reconocimiento de voz, extracción de información, codificación, generación de informes, detección de anomalías, traducción, resumen y soporte a la decisión.
+- Los estándares de interoperabilidad como HL7 FHIR son necesarios para el intercambio de información sanitaria.
+- La gestión digital debe vincularse con calidad, equidad, eficiencia y atención basada en valor, no con la digitalización como fin en sí mismo.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-Implementation requires planning, staff training, workflow redesign, and organizational culture change. Poorly integrated systems can increase burden, fragment data, or create new safety risks.
+La implementación requiere planificación, capacitación del personal, rediseño de flujos de trabajo y cambio de cultura organizacional. Los sistemas mal integrados pueden aumentar la carga, fragmentar datos o crear nuevos riesgos de seguridad.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Teleconsulta Cardiológica]]
 - [[Telemonitoreo Cardiovascular]]
@@ -49,6 +49,6 @@ Implementation requires planning, staff training, workflow redesign, and organiz
 - [[Inteligencia Artificial en Cardiología]]
 - [[Implicancias Médico-Legales y Éticas de la Medicina Digital]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

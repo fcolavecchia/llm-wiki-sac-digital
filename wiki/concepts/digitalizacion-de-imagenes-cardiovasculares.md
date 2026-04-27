@@ -4,49 +4,49 @@ type: concept
 slug: digitalizacion-de-imagenes-cardiovasculares
 status: active
 updated: 2026-04-27
-summary: Paperless, interoperable cardiovascular imaging workflows using DICOM, PACS, HCE integration, portals, and AI-supported analysis.
+summary: Flujos interoperables de imágenes cardiovasculares sin papel, con DICOM, PACS, integración con HCE, portales y análisis asistido por IA.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
 aliases:
-  - imagenes cardiovasculares digitales
+  - imágenes cardiovasculares digitales
 ---
 
 # Digitalización de Imágenes Cardiovasculares
 
-## Summary
+## Resumen
 
-Digitalization of cardiovascular imaging is the transition to paperless and film-free diagnostic imaging workflows. It depends on direct digital acquisition, secure PACS storage and transmission, DICOM, HCE integration, HL7 FHIR interoperability, secure portals, intelligent scheduling and reporting systems, and specialist-supervised AI.
+La digitalización de imágenes cardiovasculares es la transición hacia flujos diagnósticos sin papel y sin placas. Depende de adquisición digital directa, almacenamiento y transmisión seguros en PACS, DICOM, integración con HCE, interoperabilidad HL7 FHIR, portales seguros, sistemas inteligentes de turnos e informes, e IA supervisada por especialistas.
 
-## Detailed Explanation
+## Explicación detallada
 
-The SAC consensus recommends a "sin placas y sin papel" model for ultrasound, computed tomography, cardiac magnetic resonance, nuclear medicine, and hemodynamics. Images should be acquired digitally, stored and transmitted securely, and linked with electronic reports and clinical notes.
+El consenso de la SAC recomienda un modelo "sin placas y sin papel" para ecografía, tomografía computada, resonancia magnética cardíaca, medicina nuclear y hemodinamia. Las imágenes deben adquirirse digitalmente, almacenarse y transmitirse de forma segura, y vincularse con informes electrónicos y notas clínicas.
 
-DICOM is presented as the universal format for medical imaging exchange. Interoperability should connect acquisition equipment, PACS, viewing systems, web portals, HCE systems, and the Argentine Red Nacional de Salud Digital, using standards such as DICOM and HL7 FHIR.
+DICOM se presenta como el formato universal para el intercambio de imágenes médicas. La interoperabilidad debe conectar equipos de adquisición, PACS, sistemas de visualización, portales web, sistemas de HCE y la Red Nacional de Salud Digital argentina, usando estándares como DICOM y HL7 FHIR.
 
-## Why It Matters
+## Por qué importa
 
-Digital imaging improves access to images and reports, reduces physical transport and storage costs, enables longitudinal comparison, supports remote consultation, and creates infrastructure for AI research and clinical decision support.
+La imagen digital mejora el acceso a imágenes e informes, reduce el transporte físico y los costos de almacenamiento, habilita la comparación longitudinal, apoya la consulta remota y crea infraestructura para investigación en IA y soporte a la decisión clínica.
 
-## Implications
+## Implicancias
 
-- Imaging reports and notes should be generated and stored electronically.
-- Secure portals can give professionals and patients remote access to reports and images.
-- Integrated management systems can coordinate scheduling, authorization, worklists, billing, reporting, and statistics.
-- AI can optimize acquisition, reduce artifacts, improve reconstruction, automate segmentation and quantification, detect early pathology, support radiomics, and generate draft reports under specialist supervision.
-- National and regional cardiovascular imaging datasets are needed for locally relevant AI development and validation.
+- Los informes y notas de imágenes deben generarse y almacenarse electrónicamente.
+- Los portales seguros pueden dar a profesionales y pacientes acceso remoto a informes e imágenes.
+- Los sistemas integrados de gestión pueden coordinar turnos, autorizaciones, listas de trabajo, facturación, informes y estadísticas.
+- La IA puede optimizar la adquisición, reducir artefactos, mejorar la reconstrucción, automatizar segmentación y cuantificación, detectar patología temprana, apoyar radiómica y generar borradores de informes bajo supervisión de especialistas.
+- Se necesitan bases de datos nacionales y regionales de imágenes cardiovasculares para desarrollar y validar IA con relevancia local.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-AI-generated reports should be supervised by specialists. Dataset creation must include rigorous annotation, quality standards, privacy protections, and professional validation. Interoperability requires institutional coordination, not only software procurement.
+Los informes generados por IA deben ser supervisados por especialistas. La creación de bases de datos debe incluir anotación rigurosa, estándares de calidad, protecciones de privacidad y validación profesional. La interoperabilidad requiere coordinación institucional, no solo compra de software.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Inteligencia Artificial en Cardiología]]
 - [[Gestión e Historia Clínica Electrónica]]
 - [[Teleconsulta Cardiológica]]
 - [[Salud Digital en Cardiología]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

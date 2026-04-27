@@ -19,17 +19,17 @@ const sans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: process.env.NEXT_PUBLIC_SITE_NAME || "LLM Wiki Template",
-    template: `%s | ${process.env.NEXT_PUBLIC_SITE_NAME || "LLM Wiki Template"}`,
+    default: process.env.NEXT_PUBLIC_SITE_NAME || "Wiki Sac Digital",
+    template: `%s | ${process.env.NEXT_PUBLIC_SITE_NAME || "Wiki Sac Digital"}`,
   },
-  description: "A file-based persistent wiki maintained by an LLM.",
+  description: "Wiki persistente basado en archivos y mantenido por un LLM.",
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   const pages = await getAllPages();
 
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${display.variable} ${sans.variable}`} style={{ fontFamily: "var(--font-sans)" }}>
         <div className="app-shell">
           <Sidebar pages={pages} />

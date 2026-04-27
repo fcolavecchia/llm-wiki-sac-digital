@@ -4,47 +4,47 @@ type: concept
 slug: intervenciones-de-salud-digital
 status: active
 updated: 2026-04-27
-summary: SAC consensus category for digital technologies used to achieve health objectives in cardiovascular care.
+summary: Categoría del consenso SAC para tecnologías digitales usadas con objetivos de salud en la atención cardiovascular.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
 aliases:
-  - digital health interventions
+  - intervenciones digitales en salud
 ---
 
 # Intervenciones de Salud Digital
 
-## Summary
+## Resumen
 
-Intervenciones de salud digital are digital technologies used to achieve health objectives. In the SAC consensus, the core categories are teleconsulta, teleinterconsulta, telemonitoreo, telegestion, and teleeducacion.
+Las intervenciones de salud digital son tecnologías digitales usadas para alcanzar objetivos de salud. En el consenso de la SAC, las categorías centrales son teleconsulta, teleinterconsulta, telemonitoreo, telegestión y teleeducación.
 
-## Detailed Explanation
+## Explicación detallada
 
-The concept is the shared vocabulary for the whole wiki. It prevents every digital workflow from being treated as a generic "app" or "platform" and instead classifies the clinical function being performed.
+El concepto funciona como vocabulario compartido para todo el wiki. Evita que cada flujo digital sea tratado como una "app" o "plataforma" genérica y permite clasificar la función clínica que se está realizando.
 
-The consensus defines [[Teleconsulta Cardiológica]] as direct interaction between patient and professional through digital technology. Teleinterconsulta is interaction between physicians, usually involving a consultant and a remote specialist. [[Telemonitoreo Cardiovascular]] is professional monitoring of patient parameters or complementary methods over time through digital transmission. Telegestion covers digital communication for medical documentation, prescriptions, study orders, storage and transfer of diagnostic tests, notifications, and professional workflows. Teleeducacion includes professional education and verified patient or public health information delivered through digital technologies.
+El consenso define la [[Teleconsulta Cardiológica]] como la interacción directa entre paciente y profesional mediante tecnología digital. La teleinterconsulta es la interacción entre médicos, habitualmente entre un médico consultante y un especialista remoto. El [[Telemonitoreo Cardiovascular]] es el seguimiento profesional, a lo largo del tiempo, de parámetros del paciente o métodos complementarios mediante transmisión digital. La telegestión cubre la comunicación digital para documentación médica, prescripciones, órdenes de estudios, almacenamiento y transferencia de estudios diagnósticos, notificaciones y flujos profesionales. La teleeducación incluye formación profesional e información verificada para pacientes o salud pública entregada mediante tecnologías digitales.
 
-## Why It Matters
+## Por qué importa
 
-This classification supports regulation, reimbursement, training, documentation, and risk management. If these interventions are recognized as medical acts, they need the same professional rigor as in-person care: recordkeeping, privacy, informed consent, quality standards, and payment.
+Esta clasificación sostiene la regulación, el pago, la capacitación, la documentación y la gestión del riesgo. Si estas intervenciones se reconocen como actos médicos, necesitan el mismo rigor profesional que la atención presencial: registro, privacidad, consentimiento informado, estándares de calidad y remuneración.
 
-## Implications
+## Implicancias
 
-- Digital interventions are not merely administrative conveniences when they affect clinical care.
-- A single platform can support multiple intervention types, so governance should follow the clinical function rather than the software brand.
-- Teleeducation and professional communication are part of digital health, but they should remain traceable to reliable sources.
+- Las intervenciones digitales no son meras comodidades administrativas cuando afectan la atención clínica.
+- Una misma plataforma puede sostener varios tipos de intervención, por lo que la gobernanza debe seguir la función clínica más que la marca del software.
+- La teleeducación y la comunicación profesional forman parte de la salud digital, pero deben mantenerse trazables a fuentes confiables.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-The consensus gives Class I, Level C recommendations for the classification and medical-act framing, meaning the recommendation is strong but based on expert consensus rather than high-grade trial evidence.
+El consenso otorga recomendaciones de Clase I, Nivel C para la clasificación y el encuadre como acto médico. Esto significa que la recomendación es fuerte, pero se basa en consenso de expertos más que en evidencia de ensayos de alto grado.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Salud Digital en Cardiología]]
 - [[Teleconsulta Cardiológica]]
 - [[Telemonitoreo Cardiovascular]]
 - [[Gestión e Historia Clínica Electrónica]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

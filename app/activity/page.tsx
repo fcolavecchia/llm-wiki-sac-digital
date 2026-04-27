@@ -8,9 +8,9 @@ export default async function ActivityPage() {
 
   return (
     <section className="content-panel">
-      <span className="eyebrow">Activity</span>
-      <h1 className="page-title">Recent wiki changes</h1>
-      <p className="page-summary">This page is derived from the append-only log at <code>wiki/log.md</code>.</p>
+      <span className="eyebrow">Actividad</span>
+      <h1 className="page-title">Cambios recientes del wiki</h1>
+      <p className="page-summary">Esta página deriva del registro append-only en <code>wiki/log.md</code>.</p>
 
       <div className="activity-list">
         {entries.map((entry) => (

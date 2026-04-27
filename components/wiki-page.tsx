@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { getTypeLabel } from "../lib/labels";
 import type { WikiHeading, WikiPage } from "../lib/types";
 
 interface WikiPageViewProps {
@@ -18,7 +19,7 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
       {breadcrumbs.length > 0 ? (
         <div className="breadcrumbs">
           <span>
-            <Link href="/">home</Link>
+            <Link href="/">inicio</Link>
           </span>
           {breadcrumbs.map((segment, index) => (
             <span key={`${segment}-${index}`}>{segment}</span>
@@ -28,14 +29,14 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
 
       <div className="wiki-grid">
         <article className="markdown">
-          <span className="eyebrow">{page.type}</span>
+          <span className="eyebrow">{getTypeLabel(page.type)}</span>
           <h1 className="page-title">{page.title}</h1>
           <p className="page-summary">{page.summary}</p>
 
           <div className="meta-row">
-            {page.updated ? <span className="pill">Updated {page.updated}</span> : null}
-            {page.status ? <span className="pill">Status {page.status}</span> : null}
-            {page.sources.length > 0 ? <span className="pill">{page.sources.length} source link(s)</span> : null}
+            {page.updated ? <span className="pill">Actualizado {page.updated}</span> : null}
+            {page.status ? <span className="pill">Estado {page.status}</span> : null}
+            {page.sources.length > 0 ? <span className="pill">{page.sources.length} enlace(s) a fuente</span> : null}
           </div>
 
           <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -44,7 +45,7 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
         <aside className="stack">
           {toc.length > 1 ? (
             <section className="panel-card">
-              <h2>On This Page</h2>
+              <h2>En esta página</h2>
               <ul className="toc-list">
                 {toc.map((heading) => (
                   <li key={heading.id}>
@@ -57,7 +58,7 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
 
           {page.sources.length > 0 ? (
             <section className="panel-card">
-              <h2>Source IDs</h2>
+              <h2>IDs de fuentes</h2>
               <ul className="inline-list">
                 {page.sources.map((source) => (
                   <li key={source}>{source}</li>
@@ -68,7 +69,7 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
 
           {backlinks.length > 0 ? (
             <section className="panel-card">
-              <h2>Backlinks</h2>
+              <h2>Enlaces entrantes</h2>
               <ul className="inline-list">
                 {backlinks.map((link) => (
                   <li key={link.absolutePath}>
@@ -81,7 +82,7 @@ export function WikiPageView({ backlinks, html, page, related, toc }: WikiPageVi
 
           {related.length > 0 ? (
             <section className="panel-card">
-              <h2>Related</h2>
+              <h2>Relacionado</h2>
               <ul className="inline-list">
                 {related.map((link) => (
                   <li key={link.absolutePath}>

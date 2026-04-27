@@ -4,43 +4,43 @@ type: concept
 slug: inteligencia-artificial-en-cardiologia
 status: active
 updated: 2026-04-27
-summary: Use of AI in cardiovascular care, including generative AI, clinical support, imaging, documentation, evaluation, and governance.
+summary: Uso de IA en la atención cardiovascular, incluida la IA generativa, el soporte clínico, las imágenes, la documentación, la evaluación y la gobernanza.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
 aliases:
   - IA en cardiologia
-  - artificial intelligence in cardiology
+  - inteligencia artificial cardiovascular
 ---
 
 # Inteligencia Artificial en Cardiología
 
-## Summary
+## Resumen
 
-AI in cardiology includes tools that reason, learn, generate text, analyze images, support documentation, and assist clinical or administrative decisions. The SAC consensus frames AI as potentially transformative but only acceptable when it is validated, supervised, transparent enough for clinical use, and governed for safety, privacy, bias, and ethics.
+La IA en cardiología incluye herramientas que razonan, aprenden, generan texto, analizan imágenes, apoyan la documentación y asisten decisiones clínicas o administrativas. El consenso de la SAC la presenta como potencialmente transformadora, pero aceptable solo cuando está validada, supervisada, es suficientemente transparente para el uso clínico y cuenta con gobernanza sobre seguridad, privacidad, sesgos y ética.
 
-## Detailed Explanation
+## Explicación detallada
 
-The consensus defines core terms such as AI, machine learning, deep learning, neural networks, large language models, agents, prompts, transformers, retrieval-augmented generation, fine-tuning, hallucinations, embeddings, inference, and multimodality. These definitions create a shared language for professionals who must evaluate AI tools without assuming that all AI systems have the same risk profile.
+El consenso define términos centrales como IA, aprendizaje automático, aprendizaje profundo, redes neuronales, grandes modelos de lenguaje, agentes, prompts, transformers, generación aumentada por recuperación, ajuste fino, alucinaciones, embeddings, inferencia y multimodalidad. Estas definiciones crean un lenguaje compartido para profesionales que deben evaluar herramientas de IA sin asumir que todos los sistemas tienen el mismo perfil de riesgo.
 
-The document distinguishes personal use of generative AI from institutional deployment. Personal use may help with education, drafting, summarization, and workflow support, but clinical outputs require verification. Institutional use requires interdisciplinary teams, evaluation metrics, privacy controls, clear accountability, and alignment with local regulation.
+El documento distingue el uso personal de IA generativa del despliegue institucional. El uso personal puede ayudar en educación, redacción, síntesis y apoyo de flujos de trabajo, pero los resultados clínicos requieren verificación. El uso institucional exige equipos interdisciplinarios, métricas de evaluación, controles de privacidad, responsabilidades claras y alineación con la regulación local.
 
-## Why It Matters
+## Por qué importa
 
-AI can reduce friction in clinical workflows, support decision-making, accelerate documentation, and improve analysis of large datasets. In cardiology, its relevance is especially strong in [[Digitalización de Imágenes Cardiovasculares]], [[Teleconsulta Cardiológica]], [[Telemonitoreo Cardiovascular]], [[Genómica en Salud Digital]], and [[Gestión e Historia Clínica Electrónica]].
+La IA puede reducir fricciones en los flujos clínicos, apoyar la toma de decisiones, acelerar la documentación y mejorar el análisis de grandes conjuntos de datos. En cardiología, su relevancia es especialmente marcada en [[Digitalización de Imágenes Cardiovasculares]], [[Teleconsulta Cardiológica]], [[Telemonitoreo Cardiovascular]], [[Genómica en Salud Digital]] y [[Gestión e Historia Clínica Electrónica]].
 
-## Implications
+## Implicancias
 
-- AI outputs should not be treated as independent clinical authority.
-- Evaluation must account for clinical usefulness, absence of harm, evidence quality, bias, hallucination risk, and performance in the local population.
-- AI-enabled systems may require regulatory treatment similar to software as a medical device when they affect diagnosis or treatment.
-- National or regional datasets are important for validating tools against Argentine cardiovascular populations and workflows.
+- Las salidas de IA no deben tratarse como autoridad clínica independiente.
+- La evaluación debe considerar utilidad clínica, ausencia de daño, calidad de evidencia, sesgos, riesgo de alucinación y desempeño en la población local.
+- Los sistemas habilitados por IA pueden requerir tratamiento regulatorio similar al software como dispositivo médico cuando afectan diagnóstico o tratamiento.
+- Las bases de datos nacionales o regionales son importantes para validar herramientas frente a poblaciones cardiovasculares y flujos de trabajo argentinos.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-The source is optimistic about AI's clinical potential but explicit about risks. Hallucinated references, incorrect statistics, contraindicated recommendations, and bias can create direct patient harm. The legal and institutional accountability model remains underdeveloped compared with the pace of technical adoption.
+La fuente es optimista sobre el potencial clínico de la IA, pero explícita respecto de sus riesgos. Las referencias alucinadas, estadísticas incorrectas, recomendaciones contraindicadas y sesgos pueden producir daño directo al paciente. El modelo de responsabilidad legal e institucional sigue poco desarrollado en comparación con el ritmo de adopción técnica.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Salud Digital en Cardiología]]
 - [[Digitalización de Imágenes Cardiovasculares]]
@@ -48,6 +48,6 @@ The source is optimistic about AI's clinical potential but explicit about risks.
 - [[Gestión e Historia Clínica Electrónica]]
 - [[Implicancias Médico-Legales y Éticas de la Medicina Digital]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

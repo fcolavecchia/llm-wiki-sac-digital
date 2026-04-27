@@ -4,7 +4,7 @@ type: concept
 slug: teleconsulta-cardiologica
 status: active
 updated: 2026-04-27
-summary: Remote cardiology consultation model that complements in-person care under clinical, technical, ethical, and legal conditions.
+summary: Modelo de consulta cardiológica remota que complementa la atención presencial bajo condiciones clínicas, técnicas, éticas y legales.
 sources:
   - 2026-04-consenso-salud-digital
 parent: intervenciones-de-salud-digital
@@ -14,39 +14,39 @@ aliases:
 
 # Teleconsulta Cardiológica
 
-## Summary
+## Resumen
 
-Teleconsulta cardiologica is medical care at a distance using ICT to connect patients and professionals. The SAC consensus treats it as a valid complement to in-person care for stable patients, but not as a substitute when physical examination, emergency care, or life-risk evaluation is required.
+La teleconsulta cardiológica es atención médica a distancia mediante TIC que conectan pacientes y profesionales. El consenso de la SAC la considera un complemento válido de la atención presencial en pacientes estables, pero no un sustituto cuando se requiere examen físico, atención de urgencia o evaluación de riesgo vital.
 
-## Detailed Explanation
+## Explicación detallada
 
-Teleconsultation can support evaluation, diagnosis, follow-up, patient education, therapeutic adjustment, and coordination between levels of care. It may be synchronous, asynchronous, or interprofessional. In cardiology, the consensus highlights its value for chronic disease follow-up, return of study results, patient empowerment, second opinions, Heart Team work, and some protocolized urgent-care triage.
+La teleconsulta puede apoyar evaluación, diagnóstico, seguimiento, educación del paciente, ajuste terapéutico y coordinación entre niveles de atención. Puede ser sincrónica, asincrónica o interprofesional. En cardiología, el consenso destaca su valor para el seguimiento de enfermedades crónicas, la devolución de resultados de estudios, el empoderamiento del paciente, las segundas opiniones, el trabajo del Heart Team y algunos esquemas protocolizados de triaje en urgencias.
 
-The value of teleconsultation depends less on the video platform and more on clinical and institutional conditions: confidentiality, secure connectivity, adequate audio and lighting, informed consent, identity and enrollment processes, recordkeeping in the HCE, electronic or digital prescription, and professional training.
+El valor de la teleconsulta depende menos de la plataforma de video y más de las condiciones clínicas e institucionales: confidencialidad, conectividad segura, audio e iluminación adecuados, consentimiento informado, procesos de identidad y empadronamiento, registro en la HCE, prescripción electrónica o digital y capacitación profesional.
 
-## Why It Matters
+## Por qué importa
 
-Teleconsultation can reduce travel, waiting time, cost, fragmentation, and environmental impact. It can also improve access for rural patients or people with mobility barriers. Its strongest role is in hybrid care models where remote and in-person encounters are used according to patient risk and clinical need.
+La teleconsulta puede reducir traslados, tiempos de espera, costos, fragmentación e impacto ambiental. También puede mejorar el acceso para pacientes rurales o personas con barreras de movilidad. Su rol más sólido está en modelos híbridos de atención donde los encuentros remotos y presenciales se usan según el riesgo del paciente y la necesidad clínica.
 
-## Implications
+## Implicancias
 
-- Programmed teleconsultation is recommended as complementary care for clinically stable patients.
-- Teleconsultation can be used for second opinions and inter-specialist collaboration.
-- Vulnerable patients may need assisted institutional synchronous teleconsultation to reduce the digital divide.
-- The encounter should be documented with the same rigor as an in-person consultation.
-- Professionals should be paid for teleconsultation as a medical act.
+- La teleconsulta programada se recomienda como atención complementaria para pacientes clínicamente estables.
+- La teleconsulta puede usarse para segundas opiniones y colaboración entre especialistas.
+- Los pacientes vulnerables pueden necesitar teleconsulta sincrónica institucional asistida para reducir la brecha digital.
+- El encuentro debe documentarse con el mismo rigor que una consulta presencial.
+- Los profesionales deben recibir remuneración por la teleconsulta como acto médico.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-The consensus explicitly states that teleconsultation should not be the only evaluation for patients with symptoms compatible with life risk. It also depends on digital literacy, patient access, platform reliability, privacy, and legal recognition.
+El consenso afirma explícitamente que la teleconsulta no debe ser la única evaluación en pacientes con síntomas compatibles con riesgo vital. También depende de la alfabetización digital, el acceso del paciente, la confiabilidad de la plataforma, la privacidad y el reconocimiento legal.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Intervenciones de Salud Digital]]
 - [[Telemonitoreo Cardiovascular]]
 - [[Gestión e Historia Clínica Electrónica]]
 - [[Implicancias Médico-Legales y Éticas de la Medicina Digital]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

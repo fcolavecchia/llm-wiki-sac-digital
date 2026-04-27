@@ -2,18 +2,9 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 
 import { routePathFromRelativePath, WIKI_DIR } from "./content";
+import { getTypeLabel } from "./labels";
 import { resolveWikiLinkTarget } from "./links";
 import type { LogEntry, WikiPage } from "./types";
-
-const TYPE_LABELS: Record<string, string> = {
-  analysis: "Analyses",
-  concept: "Concepts",
-  entity: "Entities",
-  overview: "Overview",
-  source: "Sources",
-  system: "System",
-  topic: "Topics",
-};
 
 export function groupPagesByType(pages: WikiPage[]): Map<string, WikiPage[]> {
   const groups = new Map<string, WikiPage[]>();
@@ -96,27 +87,27 @@ export function buildIndexMarkdown(pages: WikiPage[]): string {
   const today = new Date().toISOString().slice(0, 10);
   const sections: string[] = [
     "---",
-    "title: Wiki Index",
+    "title: Índice del wiki",
     "type: system",
     "slug: index",
     "status: active",
     `updated: ${today}`,
-    "summary: Generated catalog of the wiki tree for humans and agents.",
+    "summary: Catálogo generado del árbol del wiki para personas y agentes.",
     "---",
     "",
-    "# Wiki Index",
+    "# Índice del wiki",
     "",
-    "This file is generated from the current `wiki/` tree and acts as the catalog for both humans and agents.",
+    "Este archivo se genera a partir del árbol actual de `wiki/` y funciona como catálogo para personas y agentes.",
     "",
   ];
 
   for (const [type, group] of grouped.entries()) {
-    sections.push(`## ${TYPE_LABELS[type] ?? type}`);
+    sections.push(`## ${getTypeLabel(type, true)}`);
     sections.push("");
 
     for (const page of group.sort((left, right) => left.title.localeCompare(right.title))) {
-      const summary = page.summary || "No summary available yet.";
-      const updated = page.updated ? ` | updated ${page.updated}` : "";
+      const summary = page.summary || "Sin resumen disponible todavía.";
+      const updated = page.updated ? ` | actualizado ${page.updated}` : "";
       sections.push(`- [${page.title}](${page.routePath}) - ${summary}${updated}`);
     }
 
@@ -133,15 +124,15 @@ export async function appendLogEntry(label: string, subject: string, bullets: st
     .readFile(logPath, "utf8")
     .catch(
       () => `---
-title: Activity Log
+title: Registro de actividad
 type: system
 slug: log
 status: active
 updated: ${today}
-summary: Chronological record of ingests, analyses, lint passes, and structural changes.
+summary: Registro cronológico de ingestas, análisis, revisiones y cambios estructurales.
 ---
 
-# Activity Log
+# Registro de actividad
 `,
     );
   const withUpdatedDate = existing.replace(/^updated:\s+.*$/m, `updated: ${today}`);

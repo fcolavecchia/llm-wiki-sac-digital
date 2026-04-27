@@ -46,7 +46,7 @@ Esta es la fuente semilla del wiki Sac Digital porque establece un vocabulario p
 
 ## Páginas actualizadas a partir de esta fuente
 
-- [[Overview]]
+- [[overview|Panorama general]]
 - [[Salud Digital en Cardiología]]
 - [[Sociedad Argentina de Cardiología]]
 - [[Intervenciones de Salud Digital]]

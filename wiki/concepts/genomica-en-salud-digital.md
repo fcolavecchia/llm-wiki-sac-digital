@@ -4,49 +4,49 @@ type: concept
 slug: genomica-en-salud-digital
 status: active
 updated: 2026-04-27
-summary: Integration of genomic data, bioinformatics, big data, AI, and counseling into digital cardiovascular precision medicine.
+summary: Integración de datos genómicos, bioinformática, big data, IA y asesoramiento en la medicina cardiovascular digital de precisión.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
 aliases:
-  - cardio-genomica
-  - genomica cardiovascular
+  - cardiogenómica
+  - genómica cardiovascular
 ---
 
 # Genómica en Salud Digital
 
-## Summary
+## Resumen
 
-Genomica en salud digital links genomic testing, bioinformatics, big data, AI, and clinical data to support precision cardiology. It is especially relevant for inherited cardiac disease, risk stratification, cascade family testing, pharmacogenomics, and multi-omic models.
+La genómica en salud digital vincula pruebas genómicas, bioinformática, big data, IA y datos clínicos para sostener la cardiología de precisión. Es especialmente relevante para enfermedades cardíacas hereditarias, estratificación de riesgo, estudios familiares en cascada, farmacogenómica y modelos multiómicos.
 
-## Detailed Explanation
+## Explicación detallada
 
-The SAC consensus describes a shift from broad syndromic categories toward molecular understanding of cardiovascular disease. Genomics can support diagnosis, prognosis, therapy selection, predictive testing in relatives, and reproductive counseling.
+El consenso de la SAC describe un desplazamiento desde categorías sindrómicas amplias hacia una comprensión molecular de la enfermedad cardiovascular. La genómica puede apoyar diagnóstico, pronóstico, selección terapéutica, pruebas predictivas en familiares y asesoramiento reproductivo.
 
-Digital health enables this shift by making large-scale biomedical data collection and analysis possible. Bioinformatics pipelines transform sequencing signals into FASTQ data, aligned reads, variant calls, filtered variants, annotations, and clinically interpretable knowledge. AI and machine learning can help classify variants and integrate genomics with imaging, clinical history, lifestyle, environment, and other omics.
+La salud digital habilita este cambio al hacer posible la recolección y el análisis de datos biomédicos a gran escala. Los pipelines bioinformáticos transforman señales de secuenciación en datos FASTQ, lecturas alineadas, llamados de variantes, variantes filtradas, anotaciones y conocimiento clínicamente interpretable. La IA y el aprendizaje automático pueden ayudar a clasificar variantes e integrar genómica con imágenes, historia clínica, estilo de vida, ambiente y otras ómicas.
 
-## Why It Matters
+## Por qué importa
 
-Genomic information can change prevention and treatment thresholds, identify at-risk relatives, and support personalized therapy. In inherited aortopathies, cardiomyopathies, channelopathies, and familial dyslipidemias, genetic information can be central to diagnosis and follow-up.
+La información genómica puede modificar umbrales de prevención y tratamiento, identificar familiares en riesgo y apoyar terapias personalizadas. En aortopatías hereditarias, miocardiopatías, canalopatías y dislipidemias familiares, la información genética puede ser central para el diagnóstico y el seguimiento.
 
-## Implications
+## Implicancias
 
-- Genetic counseling and testing are recommended for patients with diagnosed or strongly suspected inherited cardiac disease.
-- Counseling should be performed by professionals trained in cardiovascular genetics, ideally within multidisciplinary teams.
-- If the index case has a pathogenic or probably pathogenic variant, family cascade testing can be considered.
-- Variant interpretation should be handled by experienced professionals because variants of uncertain significance can be reclassified over time.
-- Pharmacogenomics has promising use cases, but routine population-wide use is not recommended in several scenarios described by the source.
+- Se recomiendan asesoramiento y pruebas genéticas en pacientes con enfermedad cardíaca hereditaria diagnosticada o fuertemente sospechada.
+- El asesoramiento debe ser realizado por profesionales formados en genética cardiovascular, idealmente dentro de equipos multidisciplinarios.
+- Si el caso índice presenta una variante patogénica o probablemente patogénica, puede considerarse el estudio familiar en cascada.
+- La interpretación de variantes debe estar a cargo de profesionales experimentados, porque las variantes de significado incierto pueden reclasificarse con el tiempo.
+- La farmacogenómica tiene casos de uso promisorios, pero no se recomienda su uso rutinario poblacional en varios escenarios descriptos por la fuente.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-Genetic information is sensitive because it affects both the patient and relatives. Direct-to-consumer tests and AI chatbots can leave patients without adequate interpretation. The consensus does not recommend AI chatbots or online AI advisors for communicating genetic test results.
+La información genética es sensible porque afecta tanto al paciente como a sus familiares. Las pruebas directas al consumidor y los chatbots de IA pueden dejar a los pacientes sin interpretación adecuada. El consenso no recomienda chatbots de IA ni asesores de IA en línea para comunicar resultados de pruebas genéticas.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Inteligencia Artificial en Cardiología]]
 - [[Gestión e Historia Clínica Electrónica]]
 - [[Implicancias Médico-Legales y Éticas de la Medicina Digital]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]

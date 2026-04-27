@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { WikiPageView } from "../components/wiki-page";
 import { getAllPages, getOverviewPage } from "../lib/content";
+import { getTypeLabel } from "../lib/labels";
 import { renderMarkdown } from "../lib/markdown";
 import { getBacklinks, getRecentPages, getRelatedPages, parseLogEntries } from "../lib/wiki";
 
@@ -28,12 +29,12 @@ export default async function HomePage() {
       />
 
       <section className="content-panel">
-        <h2 className="section-title">Recently Updated Pages</h2>
-        <p className="section-copy">Seed content is included so the template renders immediately and gives Codex a wiki to extend.</p>
+        <h2 className="section-title">Páginas actualizadas recientemente</h2>
+        <p className="section-copy">Páginas curadas más recientes del wiki Sac Digital.</p>
         <div className="feature-grid">
           {recentPages.map((page) => (
             <article className="feature-card" key={page.absolutePath}>
-              <span className="eyebrow">{page.type}</span>
+              <span className="eyebrow">{getTypeLabel(page.type)}</span>
               <h3>
                 <Link href={page.routePath}>{page.title}</Link>
               </h3>
@@ -44,7 +45,7 @@ export default async function HomePage() {
       </section>
 
       <section className="content-panel">
-        <h2 className="section-title">Recent Activity</h2>
+        <h2 className="section-title">Actividad reciente</h2>
         <div className="activity-list">
           {activity.map((entry) => (
             <article className="activity-item" key={`${entry.date}-${entry.subject}`}>

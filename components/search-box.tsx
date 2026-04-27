@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import { getTypeLabel } from "../lib/labels";
+
 interface SearchItem {
   routePath: string;
   summary: string;
@@ -29,10 +31,10 @@ export function SearchBox({ items }: SearchBoxProps) {
   return (
     <div className="search-box">
       <input
-        aria-label="Search wiki pages"
+        aria-label="Buscar páginas del wiki"
         className="search-input"
         onChange={(event) => setQuery(event.target.value)}
-        placeholder="Search concepts, sources, analyses..."
+        placeholder="Buscar conceptos, fuentes, análisis..."
         type="search"
         value={query}
       />
@@ -40,7 +42,7 @@ export function SearchBox({ items }: SearchBoxProps) {
         <div className="search-results">
           {results.map((item) => (
             <Link className="result-link" href={item.routePath} key={item.routePath} onClick={() => setQuery("")}>
-              <span className="result-label">{item.type}</span>
+              <span className="result-label">{getTypeLabel(item.type)}</span>
               <span className="result-title">{item.title}</span>
               <span className="result-summary">{item.summary}</span>
             </Link>

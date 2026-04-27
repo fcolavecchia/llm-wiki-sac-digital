@@ -4,7 +4,7 @@ type: concept
 slug: redes-sociales-profesionales-en-salud
 status: active
 updated: 2026-04-27
-summary: Professional use of social media in health for education, evidence-based communication, visibility, and misinformation response.
+summary: Uso profesional de redes sociales en salud para educación, comunicación basada en evidencia, visibilidad y respuesta a la desinformación.
 sources:
   - 2026-04-consenso-salud-digital
 parent: salud-digital-en-cardiologia
@@ -14,37 +14,37 @@ aliases:
 
 # Redes Sociales Profesionales en Salud
 
-## Summary
+## Resumen
 
-Professional social media use in health can support education, prevention, scientific communication, public-health messaging, and professional visibility. The SAC consensus frames active, evidence-based participation as increasingly necessary because misinformation and non-professional health influencers can shape patient behavior.
+El uso profesional de redes sociales en salud puede apoyar educación, prevención, comunicación científica, mensajes de salud pública y visibilidad profesional. El consenso de la SAC presenta la participación activa y basada en evidencia como cada vez más necesaria, porque la desinformación y los influencers no profesionales de salud pueden moldear la conducta de los pacientes.
 
-## Detailed Explanation
+## Explicación detallada
 
-The consensus recommends that professionals define objectives, identify their target audience, choose the appropriate platform, separate personal and professional profiles, plan content, interact with audiences, and measure results. It describes different platform roles, including visual education, scientific discussion, short video, long-form video, professional networking, and audio education.
+El consenso recomienda que los profesionales definan objetivos, identifiquen su audiencia, elijan la plataforma adecuada, separen perfiles personales y profesionales, planifiquen contenidos, interactúen con las audiencias y midan resultados. Describe distintos roles de plataforma, como educación visual, discusión científica, video breve, video de formato largo, redes profesionales y educación en audio.
 
-Professional accounts should maintain updated, periodic activity and use clear, high-quality content. Trends can be useful when professionals add evidence-based perspective or correct false claims, but imitation without original professional judgment can weaken credibility.
+Las cuentas profesionales deberían mantener actividad actualizada y periódica, con contenido claro y de calidad. Las tendencias pueden ser útiles cuando los profesionales agregan perspectiva basada en evidencia o corrigen afirmaciones falsas, pero la imitación sin juicio profesional propio puede debilitar la credibilidad.
 
-## Why It Matters
+## Por qué importa
 
-Health communication now occurs in public digital spaces where patients may encounter both reliable and unreliable information. Clinicians who communicate responsibly can improve health literacy and counter misinformation.
+La comunicación en salud ocurre hoy en espacios digitales públicos donde los pacientes pueden encontrar información confiable y no confiable. Los clínicos que comunican de manera responsable pueden mejorar la alfabetización en salud y contrarrestar la desinformación.
 
-## Implications
+## Implicancias
 
-- Content should have scientific support regardless of format.
-- Publications should be created or validated by appropriately licensed professionals when they make health claims.
-- Privacy and patient confidentiality remain binding in social media contexts.
-- Professionals should avoid conduct that violates legal limits on misleading advertising, false therapeutic claims, patient testimonials, or inappropriate publication of medical acts.
+- El contenido debe tener respaldo científico independientemente del formato.
+- Las publicaciones que realizan afirmaciones de salud deben ser creadas o validadas por profesionales con matrícula habilitante.
+- La privacidad y la confidencialidad del paciente siguen siendo obligatorias en redes sociales.
+- Los profesionales deben evitar conductas que violen límites legales sobre publicidad engañosa, afirmaciones terapéuticas falsas, testimonios de pacientes o publicación inapropiada de actos médicos.
 
-## Tensions or Caveats
+## Tensiones o salvedades
 
-The same platforms that amplify accurate information can amplify misinformation, privacy violations, and unprofessional behavior. The consensus notes that regulation and shared professional standards remain incomplete.
+Las mismas plataformas que amplifican información precisa pueden amplificar desinformación, violaciones de privacidad y conductas no profesionales. El consenso señala que la regulación y los estándares profesionales compartidos siguen incompletos.
 
-## Related Pages
+## Páginas relacionadas
 
 - [[Salud Digital en Cardiología]]
 - [[Implicancias Médico-Legales y Éticas de la Medicina Digital]]
 - [[Sociedad Argentina de Cardiología]]
 
-## Sources
+## Fuentes
 
 - [[2026-04-consenso-salud-digital]]
